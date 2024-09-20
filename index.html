@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts --> 
+  <!-- usa crlt + / --> 
+  <!-- sabe dms -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">    
+  <title>Álgebra</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="Academia__2_-removebg-preview (1) copy.png" rel="icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <nav id="navbar">
+      <div class="logo"><img src="Academia__2_-removebg-preview (1).png"></div>
+      <ul class="nav-links">
+        <li><a class="link" href="#hero">HOME</a></li>
+        <li><a class="link" href="#INTRODUCAO">INTRODUÇÃO</a></li>
+        <li><a class="link" href="#origem">ORIGEM</a></li>
+        <li><a class="link" href="#PENSADORES">PENSADORES</a></li>
+        <li><a class="link" href="#CONCEITOS">CONCEITOS</a></li>
+        <li><a class="link" href="#COTIDIANO">COTIDIANO</a></li>
+        <li><a class="link" href="#SOBRE">SOBRE</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="font-size-controls">
+    <button id="decreaseFont" class="font-size-button" aria-label="Diminuir tamanho da fonte">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon">
+          <path d="M19 13H5v-2h14v2z"/>
+      </svg>
+  </button>
+  
+  <button id="increaseFont" class="font-size-button" aria-label="Aumentar tamanho da fonte">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon">
+          <path d="M19 11H5v2h14v-2zM11 5h2v14h-2z"/>
+      </svg>
+  </button>
+</div>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1 class="home_titulo">ÁLGEBRA</h1>
+      <p class="home_subtitulo">Explorando Conceitos Essenciais para Resolver Equações e Sistemas Numéricos</p>
+      <a class="botao_home" href="#INTRODUCAO">Saiba Mais</a>
+    </div>
+  </section>
+
+  <section id="INTRODUCAO"><!-- Muda isso dpss okk-->
+    <h2 class="section_title"><span class="span_title2">INTRODUÇÃO</span></h2>
+    <p style="color: white;">A álgebra é o ramo da matemática que generaliza a aritmética. Isso quer dizer que operações comuns na aritmética (adição, subtração, multiplicação, divisão etc.) serão testados e sua eficácia será comprovada para todos os números pertencentes a determinados conjuntos numéricos. Sendo mais específico, questões como equações, operações, funções, polinômios e estruturas algébricas.</p>
+  </section>
+  <section id="origem">
+    <h2 class="section_title"><span class="span_title">ORIGEM</span></h2>
+    <div class="origem_container">
+        <div class="origem_section">
+          <div class="origem_text_full">
+            <p>A origem da álgebra teve seu início na Mesopotâmia, onde antigos conhecedores da área desenvolveram técnicas para resolver equações lineares e quadráticas. O papiro antigo de Rhind é um grande exemplo desse trabalho inicial. 
+            Usando símbolos e representações geométricas, esses matemáticos resolveram problemas práticos, como a divisão da Terra. Al-Khwarizmi, um matemático do século IX, desempenhou um papel crucial na difusão da álgebra no mundo islâmico e depois na Europa. A álgebra teve evolução na idade média, tendo estudiosos árabes e europeus contribuindo para o desenvolvimento da trigonometria e da álgebra simbólica. O trabalho de François Viète, matemático francês do século XVI, foi fundamental nesse processo. Seu livro “In Artem Analyticam Isagoge” notações dinâmicas algébricas e expandiu o escopo da álgebra. Além disso, 
+            René Descartes desenvolveu a geometria analítica, o que também contribuiu para a evolução da álgebra.
+            </p>
+          </div>
+        </div>
+        <div class="origem_text_full">
+          <P>No século XIX, a álgebra abstrata e a teoria dos grupos emergiram como áreas de pesquisa matemática de vanguarda. Evariste Galois, um jovem matemático francês, revolucionou a álgebra ao desenvolver a teoria dos grupos, lançando as bases para a álgebra moderna. Seu trabalho, embora não muito reconhecido durante sua vida, teve um impacto duradouro na matemática. Atualmente, a álgebra é uma parte essencial do currículo matemático em todo o mundo, do ensino fundamental ao superior.
+          Autores como Michael Artin, em seu livro “Álgebra”, e David C. Lay, em “Álgebra Linear e suas Aplicações”, contribuíram para tornar a álgebra acessível e relevante para os estudantes. A sua origem etimológica prende-se com o fato de que, nos tempos de outrora, se chamava álgebra à arte que visava reduzir os ossos deslocados ou fracturados/partidos. Porém, este significado caiu em desuso.
+          </P>
+        </div>
+    </div>
+  </section>
+
+  <section id="PENSADORES">
+    <div class="container">
+      <h1 class="about_title">
+        PENSADORES DA
+        <spam class="span_title"">ÁLGEBRA</spam>
+      </h1>
+
+      <div class="single-box">
+        <div class="date-area">
+          <span> 201-215 d.C.</span>
+        </div>
+        <a href="" class="contentt">
+          <img src="diofanto-de-alejandria.jpg" class="hist" />
+          <div>
+            <h2>Diofanto de Alexandria</h2>
+            <h3>Matemático</h3>
+            <p>
+              Conhecido como o "pai da álgebra", escreveu a obra Arithmetica, que trata da resolução de equações algébricas. Diofanto foi pioneiro no uso de frações como números e permitiu números racionais positivos em suas soluções.
+
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div class="single-box box-right">
+        <div class="date-area">
+          <span>780-850 d.C.</span>
+        </div>
+        <a href="https://link-para-o-site-2.com" class="contentt-right">
+          <img src="images.jpeg" class="hist-right" "/>
+          <div>
+            <h2>Abu Ja'far Muhammad ibn Musa al-Khwarizmi</h2>
+            <h3>Matemático</h3>
+            <p>
+              Autor do al-Kitab al-mukhtasar fi Hisab al-jabr w’al-muqabala, que deu origem ao termo "álgebra". Ele desenvolveu métodos práticos para resolver problemas cotidianos, como heranças e impostos.
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div class="single-box">
+        <div class="date-area">
+          <span>1540-1603</span>
+        </div>
+        <a href="https://link-para-o-site-3.com" class="contentt">
+          <img src="viete.jpeg" class="hist" />
+          <div>
+            <h2>François Viète</h2>
+            <h3>Matemático e Advogado</h3>
+            <p>
+              Introduziu a notação algébrica moderna e foi um especialista em criptografia. Sua obra In artem analyticam isagoge (1591) introduziu o uso de letras para incógnitas e constantes, revolucionando a álgebra simbólica.
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div class="single-box box-right">
+        <div class="date-area">
+          <span>1596-1650</span>
+        </div>
+        <a href="https://link-para-o-site-4.com" class="contentt-right">
+          <img src="rene.jpeg" class="hist-right" />
+          <div>
+            <h2>René Descartes</h2>
+            <h3>Filósofo e físico</h3>
+            <p>
+              Relacionou a álgebra à geometria, criando o plano cartesiano. Sua obra influente foi O Discurso do Método (1637), que contribuiu para a fusão da geometria e álgebra, formando a geometria analítica.
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div class="single-box">
+        <div class="date-area">
+          <span>1704-1752</span>
+        </div>
+        <a href="/images/Fisher.png" class="contentt">
+          <img src="cramer.jpg" class="hist" />
+          <div>
+            <h2>Gabriel Cramerr</h2>
+            <h3>Matemático</h3>
+            <p>
+              Conhecido pela Regra de Cramer, que usa determinantes para resolver sistemas de equações lineares. Sua fórmula é fundamental em álgebra linear e aplicada em matemática, física e engenharia.
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="single-box box-right">
+        <div class="date-area">
+          <span>1811-1832</span>
+        </div>
+        <a href="https://link-para-o-site-4.com" class="contentt-right">
+          <img src="Evariste_galois.jpg" class="hist-right" />
+          <div>
+            <h2>Évarist Galois</h2>
+            <h3>Matemático</h3>
+            <p>
+              Fundador da Teoria dos Grupos e da Álgebra Moderna. Sua teoria resolveu o problema de quando equações algébricas podem ser resolvidas por radicais, impulsionando a Teoria dos Números.
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div class="single-box">
+        <div class="date-area">
+          <span>1934-</span>
+        </div>
+        <a href="/images/Fisher.png" class="contentt">
+          <img src="Michael_Artin_1999_(rescanned_B,_headshot).jpg" class="hist" />
+          <div>
+            <h2>Michael Artin</h2>
+            <h3>Matemático</h3>
+            <p>
+              Um dos mais influentes matemáticos do século XX, Artin é conhecido por suas contribuições à álgebra moderna, especialmente na álgebra abstrata e geometria algébrica. Seu livro Algebra é um dos textos mais usados para o estudo avançado do tema.
+
+            </p>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="CONCEITOS">
+    <h2 class="section_title"><span class="span_title2">CONCEITOS</span></h2>
+    <div class="caixinha">
+      <p>Hoje em dia, entende-se por álgebra o ramo da matemática que estuda as estruturas, as relações e as quantidades. Nos estudos de álgebra, letras são utilizadas para representar números. Essas letras tanto podem representar números desconhecidos quanto um número qualquer pertencente 
+        a um conjunto numérico. Se x é um número par, por exemplo, então x pode ser 2, 4, 6, 8, 10, .... .... Dessa maneira, x é um número qualquer pertencente ao conjunto dos números pares e fica evidente o tipo de número que x é: um múltiplo de 2.</p>
+        <h4>Propriedades das Operações</h4>
+      <p>ASSOCIATIVIDADE</p>
+      <div class="imagem_caixinha">
+        <img src="/Imagem1.png">
+      </div>
+      <P>A propriedade associativa nos diz que se você está multiplicando três ou mais números, é possível associar os fatores de maneiras diferentes e mais convenientes.</P>
+      <p>COMUTATIVIDADE</p>
+      <div class="imagem_caixinha">
+        <img src="/Imagem2.png">
+      </div>
+      <P>A propriedade comutativa define que não importa a ordem dos valores que você está multiplicando. Pode trocar a ordem que o resultado é o mesmo.
+        Sempre irá garantir que a x b = b x a
+      </P>
+      <p>DISTRIBUTIVIDADE</p>
+      <div class="imagem_caixinha">
+        <img src="/Imagem3.png">
+      </div>
+      <p>A propriedade distributiva é utilizada quando um número está multiplicando uma adição ou subtração. Basta multiplicar separado cada termo e, somar ou subtrair o resultado.
+        Uma dica importante é colocar em evidência.
+      </p>
+      <p>Esse é um procedimento, uma ferramenta matemática muito importante. É o caminho inverso da distribuição. Quando você distribui, é o caminho de ida e quando você coloca em evidência, faz o caminho de volta. Realmente, você volta ao ponto em que estava e isso pode parecer desnecessário, mas, não é. Na verdade, é fundamental.</p>
+    </div>
+  </section>
+  <section id="COTIDIANO">
+    <h2 class="section_title">ÁLGEBRA NO <span class="span_title">COTIDIANO</span></h2>
+    <div class="cardizinho_container">
+      <article class="cardizinho"> 
+        <img
+          class="card__background"
+          src="/programação.jpg"
+          alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+          width="1920"
+          height="2193"
+        />
+        <div class="card__contenti flow">
+          <div class="card__content--container flow">
+            <h2 class="card__titlezin">Programação</h2>
+            <p class="card__description">
+              A álgebra é fundamental na programação de computadores, 
+              pois muitos algoritmos dependem de operações matemáticas para funcionar de maneira eficiente.
+            </p>
+          </div>
+          <button class="card__button" onclick="window.location.href='//www.inovaproj.com.br/engenharia/matem%C3%A1tica-computacional/artigos/%C3%A1lgebra-computacional-transformando-manipula%C3%A7%C3%B5es-simb%C3%B3licas-em-c%C3%A1lculos';">Ler mais</button>
+        </div>
+      </article>
+      <article class="cardizinho"> 
+        <img
+          class="card__background"
+          src="/finanças.jpg"
+          alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+          width="1920"
+          height="2193"
+        />
+        <div class="card__contenti flow">
+          <div class="card__content--container flow">
+            <h2 class="card__titlezin">Finanças </h2>
+            <p class="card__description">
+              A álgebra desempenha um papel importante nas finanças, 
+              ajudando a tomar decisões financeiras mais precisas. Um exemplo comum é o cálculo de juros. 
+            </p>
+          </div>
+          <button class="card__button" onclick="window.location.href='//boletimescolar.com.br/algebra-na-economia-conceitos-algebricos-em-financas/';">Ler mais</button>
+        </div>
+      </article>
+      <article class="cardizinho"> 
+        <img
+          class="card__background"
+          src="/cozinhei.jpg"
+          alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+          width="1920"
+          height="2193"
+        />
+        <div class="card__contenti flow">
+          <div class="card__content--container flow">
+            <h2 class="card__titlezin">Cozinha</h2>
+            <p class="card__description">
+              A álgebra, embora pareça distante da culinária, também pode ser aplicada na cozinha. 
+              Um exemplo comum é o ajuste de receitas.
+            </p>
+          </div>
+          <button class="card__button"  onclick="window.location.href='//www.superprof.com.br/blog/estruturas-algebricas-basicas/#:~:text=A%20%C3%A1lgebra%20%C3%A9%20altamente%20aplicada,de%20uma%20constru%C3%A7%C3%A3o%2C%20por%20exemplo';">Ler mais</button>
+        </div>
+      </article>
+      <article class="cardizinho"> 
+        <img
+          class="card__background"
+          src="/ciencia.png"
+          alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+          width="1920"
+          height="2193"
+        />
+        <div class="card__contenti flow">
+          <div class="card__content--container flow">
+            <h2 class="card__titlezin">Ciência</h2>
+            <p class="card__description">
+              A álgebra é fundamental na ciência de dados, fornecendo a base matemática para
+              muitos algoritmos e técnicas utilizadas para análise e modelagem de dados.
+            </p>
+          </div>
+          <button class="card__button" onclick="window.location.href='//medium.com/neurondsai/%C3%A1lgebra-linear-e-a-ci%C3%AAncia-de-dados-e5e3f973b8af';">Ler mais</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="SOBRE">
+    <h2 class="section_title">SOBRE <span class="span_title">NÓS</span></h2>
+    <div class="cards-container">
+        <div class="card">
+            <div class="card-content">
+                <div class="card-front" style="background-image: url('/veta.jpeg');">
+                </div>
+                <div class="card-back">
+                    <h3>Vinicius Oliveira</h3>
+                    <p>Somos uma equipe focada em inovação e criatividade, buscando sempre as melhores soluções para os nossos clientes.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <div class="card-front" style="background-image: url('WhatsApp\ Image\ 2024-09-16\ at\ 13.56.24.jpeg');">
+                    <!-- A imagem será aplicada como fundo -->
+                </div>
+                <div class="card-back">
+                    <h3>Pedro Dias</h3>
+                    <p>Nossa missão é desenvolver tecnologias que facilitam a vida das pessoas e proporcionam grandes experiências.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <div class="card-front" style="background-image: url('/may.jpeg');">
+                    <!-- A imagem será aplicada como fundo -->
+                </div>
+                <div class="card-back">
+                    <h3>Mayara Almeida</h3>
+                    <p>Com um time altamente qualificado, nossa equipe está sempre preparada para enfrentar novos desafios.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <div class="card-front" style="background-image: url('WhatsApp\ Image\ 2024-09-16\ at\ 13.47.26.jpeg');">
+                    <!-- A imagem será aplicada como fundo -->
+                </div>
+                <div class="card-back">
+                    <h3>Rafael Taine</h3>
+                    <p>Estamos comprometidos com a excelência e a entrega de soluções inovadoras para o mercado.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  
+  
+
+  <script src="script.js"></script>
+</body>
+
+</html>
